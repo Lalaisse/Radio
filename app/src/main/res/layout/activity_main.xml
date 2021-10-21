@@ -58,14 +58,29 @@
             android:id="@+id/rdSuma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="Casilla para agregar un número"
+            android:contentDescription="Opción de suma"
             android:text="Suma" />
 
         <RadioButton
             android:id="@+id/rdResta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="Opción de resta"
             android:text="Resta" />
+
+        <RadioButton
+            android:id="@+id/rdMultiplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Opción de multiplicación"
+            android:text="@string/contenid_rdMultiplicacion" />
+
+        <RadioButton
+            android:id="@+id/rdDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Opción de división"
+            android:text="@string/contenido_rdDivision" />
     </RadioGroup>
 
     <Button

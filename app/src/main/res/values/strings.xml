@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Radio</string>
+    <string name="contenid_rdMultiplicacion">Multiplicación</string>
+    <string name="contenido_rdDivision">División</string>
 </resources>
